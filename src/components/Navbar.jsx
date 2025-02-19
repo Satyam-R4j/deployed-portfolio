@@ -1,4 +1,4 @@
-import React from "react";
+
 import reactImg from "../assets/react.svg";
 import viteImg from "../assets/vite.svg";
 import tailwindImg from "../assets/tailwind.png";

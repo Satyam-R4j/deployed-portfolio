@@ -1,4 +1,4 @@
-import React from "react";
+
 import ViberImg from "../assets/viberr.png";
 import burgerImg from "../assets/fresh-burger.png";
 import HipssteImg from "../assets/hipsster.png";

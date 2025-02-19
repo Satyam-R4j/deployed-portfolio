@@ -1,4 +1,4 @@
-import React from "react";
+
 import MyImg from "../assets/myPic.jpg";
 import twitterDark from "../assets/twitter-dark.svg";
 import githubDark from "../assets/github-dark.svg";
@@ -9,7 +9,7 @@ import CV from "../assets/cv.pdf";
 export const Landingpage = () => {
   return (
     <section className="   w-screen flex md:flex-row     min-h-screen">
-      <div class="absolute top-0 z-[-2] h-screen w-full bg-[#000000] bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] bg-[size:20px_20px]"></div>
+
       <div className=" w-full  my-20 flex  flex-col md:flex-row justify-center  items-center ">
         {/* Left Section */}
         <div className="left hover:scale-95 cursor-pointer  flex items-center justify-center my-5   w-[50vh]">
@@ -66,7 +66,7 @@ export const Landingpage = () => {
             </p>
           </span>
           <a href={CV} target="_blank">
-            <button className="p-3 transition-transform uppercase font-[Roboto_Mono] hover:scale-120 hover:bg-green-500  m-3 text-md  bg-emerald-600 font-bold rounded-xl cursor-pointer">
+            <button className="p-3 transition-transform uppercase font-[Roboto_Mono] hover:scale-120 hover:bg-green-500  m-3 text-md  bg-emerald-600 font-bold animate-bounce  rounded-xl cursor-pointer">
               Resume
             </button>
           </a>
